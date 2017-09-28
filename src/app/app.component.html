@@ -1,0 +1,58 @@
+<div>
+  <div class="publicNav" data-reactid="6"><div class="contentContainer" data-reactid="7"><div class="contentInnerContainer" data-reactid="8"><div class="publicNavContent" data-reactid="9"><div class="leftContainer" data-reactid="10"><a class="company" href="/feature-requests" data-reactid="11"><!-- react-empty: 12 --><div class="companyName" data-reactid="13">Raindrop.io</div></a>
+  <a class="singleSelection left" href="/feature-requests" data-reactid="14">Feature Requests</a></div>
+
+    <div class="rightContainer" data-reactid="15" *ngIf="str" >
+	  <div class="notificationsMenu" data-reactid="16">
+		  	<a class="" href="/notifications" data-reactid="17">
+			<div class="menu iconButton" data-reactid="18"><span class="icon icon-bell" data-reactid="19"></span>
+			</div>
+			</a>
+			<div class="notificationsDropdownContainer" data-reactid="20">
+				<div class="notificationsDropdown" data-reactid="21">
+					<div class="nullState" data-reactid="22">
+					<span data-reactid="23">You have no notifications.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="adminNavAccountMenu" data-reactid="24"  >
+			<div class="userAvatar" data-reactid="25">
+				<div class="accountMenu"><div class="arrow"></div><div class="menuItems">
+					<div class="section">
+						<a class="menuItem" routerLink="/settings">
+							<div class="icon icon-gear"></div>
+							<div class="itemName">Settings</div></a>
+							<div class="menuItem">
+								<div class="icon icon-logout"></div>
+								<div class="itemName" (click)="logout()">Logout</div>
+							</div></div></div></div>		
+				<div class="avatarContainer" data-reactid="26">
+					<img id="hopa" >
+				</div>
+			</div>
+		</div>
+		
+		<a class="createLink" href="/feature-requests/create" style="background:#525df9;" data-reactid="28">
+			<span class="icon icon-pencil" data-reactid="29"></span>
+			<div class="uppercaseHeader" data-reactid="30">Create</div>
+		</a>
+	</div>
+	<!-- <ng-template #loading> -->
+		<div class="rightContainer" data-reactid="15" *ngIf="!str"><!-- react-empty: 16 -->
+			<a class="createLink" href="/feature-requests/create" style="background:#525df9;" data-reactid="17">
+					<span class="icon icon-pencil" data-reactid="18"></span>
+					<div class="uppercaseHeader" data-reactid="19">Create</div>
+			</a>
+			<div class="loginLink" data-reactid="20">
+				<div class="uppercaseHeader" data-reactid="21" (click)="loginWithFacebook()">Log in / Sign up</div>
+			</div>
+		</div>
+	<!-- </ng-template> -->
+</div></div></div></div>
+</div>
+
+<div id="contain">
+  <router-outlet></router-outlet>
+</div>
+

@@ -1,0 +1,51 @@
+.settingcontainer {
+    width:100%;
+    padding:0 100px;
+    margin:0 auto;
+    box-sizing: border-box;
+    display:flex;
+}
+.settinginnercontainer{
+    width:100%;
+    
+    padding:30px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+}
+.head{
+    font-size:25px;
+    margin:0 0 30px;
+}
+.settings{
+    display:flex;
+}
+.userAvatar{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 0;
+  
+    border-radius:50%;
+}
+.user_img{ 
+     position:relative;
+     width: 50px;
+     height: 50px;
+     margin: 0 15px 0 0;
+    border-radius:50%;
+    
+}
+.texts input{
+    margin: 0 0 15px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    cursor: text;
+    box-sizing: border-box;
+    border-radius: 3px;
+}

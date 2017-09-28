@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="boardHome">
+		<div class="contentContainer">
+			<div class="contentInnerContainer">
+				<!-- react-empty: 713 -->
+				<div class="subdomainSidebarContainer">
+					<div class="sidebar">
+						<div class="boardDetails card">
+							<div class="heading">
+								Create a Post
+							</div>
+							<div class="boardName">
+								<!-- react-text: 719 -->Feature Requests<!-- /react-text --><a class="toAll" href="/">See all boards</a>
+							</div><span class="description">Please separate suggestions into different post.</span>
+							<form class="imageForm createPostForm">
+								<div class="textInput">
+									<div class="inset">
+										Suggestion
+									</div>
+									<div class="inputContainer">
+										<input placeholder="Short and descriptive" type="text" value="" #suggestion>
+									</div>
+								</div>
+								<div class="autoResizeTextarea" >
+									<div class="inset">
+										Description
+									</div><span class="inputContainer">
+									<textarea placeholder="Please separate suggestions into different post" rows="3" #description></textarea></span>
+								</div><!-- react-empty: 731 -->
+								<div class="formButtons">
+									<!-- <div class="uploadImageButton">
+										<div class="fileInput">
+											<div class="fileInputButton" style="border-style: solid;  background-image:url('');											">
+												<span class="icon icon-image"></span>
+											</div>
+										</div>
+									</div> -->
+									<div class="uploadImageButton">
+									<input type="file" class="inpfile">
+									
+									</div>
+									<button class="subbutton" style="background: rgb(82, 93, 249);"  (click)="createpost(suggestion.value, description.value);"><span class="label" >Create&nbsp;Post</span></button>
+								</div>
+							</form>
+						</div>
+						<div class="attributionContainer">
+							<a class="attribution" href="https://canny.io" target="_blank">Powered by Canny</a>
+						</div>
+					</div>
+					<div class="mainContainer">
+						<div class="postListContainer card">
+							<div class="postList">
+								<div class="topContainer">
+									<div class="postListMenu">
+										<div class="menu">
+											<div class="text">
+												Showing
+											</div>
+											<div class="selector">
+												<div class="selectedName" (click)="opendropdown();">
+													Trending
+												</div>
+												<div class="arrow"></div>
+												<div class="dropdown card" id="options">
+													<div class="option">
+														Trending
+                          </div>
+													<div class="option">
+														Top
+													</div>
+													<div class="option">
+														New
+													</div>
+													<div class="option">
+														Planned
+													</div>
+													<div class="option">
+														In&nbsp;Progress
+													</div>
+													<div class="option">
+														Complete
+													</div>
+													<div class="option">
+														Closed
+													</div>
+												</div>
+											</div>
+											<div class="text">
+												posts
+											</div>
+										</div>
+										<div class="rightContainer">
+											<div class="icon icon-search"></div>
+										</div>
+									</div>
+								</div>
+								<div class="posts">
+									<div class="postListItem">
+										<div class="postVotes">
+											<div class="upvote"></div><span>184</span>
+										</div>
+										<div class="body">
+											<div class="postTitle">
+												 <!-- <a routerLink="/list1" routerLinkActive="active">Crisis Center</a> -->
+												<!-- <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+      </div> -->
+												<!-- <fb-like href="https://github.com/zyra/ngx-facebook"></fb-like> -->
+												<a routerLink="/list1"><span>Notes</span></a>
+											</div><!-- react-empty: 773 -->
+										</div><a class="" href="/feature-requests/p/notes?section=comments">
+										<div class="postCommentCount">
+											<span class="icon icon-comment"></span><span>9</span>
+										</div></a>
+									</div>
+									
+								
+								</div>
+								<div class="postListLoadMore" style="color: rgb(82, 93, 249);">
+									<!-- react-text: 896 -->Load More<!-- /react-text -->
+									<div class="arrow">
+										→
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="attributionContainer">
+							<a class="attribution mobile" href="https://canny.io" target="_blank">Powered by Canny</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

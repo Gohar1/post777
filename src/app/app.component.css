@@ -1,0 +1,6 @@
+.accountMenu{
+    display: none;
+}
+.userAvatar:hover>.accountMenu{
+    display: block;
+}
